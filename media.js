@@ -13,6 +13,6 @@ if (nota < 4) {
     console.log("Infelizmente você foi reprovado");
 }
 
-
+console.log("Fim do programa");
 
 
