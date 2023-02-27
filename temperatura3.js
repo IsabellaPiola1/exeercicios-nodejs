@@ -6,8 +6,9 @@ temp < 0          Está congelando
 20 < temp <= 30   Está calor
 temp > 30         está muito calor
 */
+const prompt = require("prompt-sync").prompt();
 
-let temperatura = 39;
+let temperatura = parseInt(prompt("Por favor, digite a temperatura: "));
 console.log("Temperatura: ", temperatura);
 
 if (temperatura < 0) {
