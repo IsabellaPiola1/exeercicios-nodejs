@@ -11,3 +11,4 @@ if (temperatura < 10) {
 }
 
 console.log("Fim do programa");
+
